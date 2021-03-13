@@ -10,7 +10,7 @@
   </description>
   <url type="homepage">https://github.com/rage/tmc-cli-rust</url>
   <releases>
-        <release version="v0.2.4" date="2021-03-06">
+        <release version="v0.3.0" date="2021-03-13">
             <description>Latest stable release</description>
         </release>
     </releases>
