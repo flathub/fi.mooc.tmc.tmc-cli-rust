@@ -10,7 +10,7 @@ modules:
   - name: tmc
     buildsystem: simple
     build-commands:
-      - install tmc /app/bin
+      - install -D tmc /app/bin/tmc
       - install -Dm644 metainfo.xml /app/share/appdata/fi.mooc.tmc.tmc-cli-rust.appdata.xml
       - install -Dm644 64x64.png /app/share/app-info/icons/flatpak/64x64/fi.mooc.tmc.tmc-cli-rust.png
       - install -Dm644 128x128.png /app/share/app-info/icons/flatpak/128x128/fi.mooc.tmc.tmc-cli-rust.png
