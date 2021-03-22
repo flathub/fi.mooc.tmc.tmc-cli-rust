@@ -23,5 +23,5 @@ modules:
         path: metainfo.xml
       - type: file
         url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v0.3.3
-        sha256: 480410C03DDDA1DDD9C7501A472E6135E11DD9A9522BC19021CFA0FC55F72DD4
+        sha256: 480410c03ddda1ddd9c7501a472e6135e11dd9a9522bc19021cfa0fc55f72dd4
         dest-filename: tmc
