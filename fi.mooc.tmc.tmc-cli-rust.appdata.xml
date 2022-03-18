@@ -14,6 +14,11 @@
   </releases>
   <project_license>Apache-2.0</project_license>
   <developer_name>The University of Helsinki</developer_name>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/fi.mooc.tmc.tmc-cli-rust/master/screenshot.png</image>
+    </screenshot>
+  </screenshots>
   <update_contact>daniel.x.martinez@helsinki.fi</update_contact>
   <provides>
     <binary>/app/bin/tmc</binary>
