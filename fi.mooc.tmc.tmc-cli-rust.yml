@@ -11,6 +11,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D -t /app/bin/ tmc
+      - install -Dm644 -t /app/share/app-info/icons/flatpak/128x128/ fi.mooc.tmc.tmc-cli-rust.svg
       - install -Dm644 -t /app/share/appdata/ fi.mooc.tmc.tmc-cli-rust.appdata.xml
     sources:
       - type: file
