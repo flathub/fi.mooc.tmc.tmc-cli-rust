@@ -11,10 +11,10 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D -t /app/bin/ tmc
-      - install -Dm644 -t /app/share/metainfo/ fi.mooc.tmc.tmc-cli-rust.metainfo.xml
+      - install -Dm644 -t /app/share/appdata/ fi.mooc.tmc.tmc-cli-rust.appdata.xml
     sources:
       - type: file
-        path: fi.mooc.tmc.tmc-cli-rust.metainfo.xml
+        path: fi.mooc.tmc.tmc-cli-rust.appdata.xml
       - type: file
         url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v1.1.1
         sha256: bf140947a89d263fa36aec6c0c19c8543f6dc61720963bab80274c6ba52cef71
