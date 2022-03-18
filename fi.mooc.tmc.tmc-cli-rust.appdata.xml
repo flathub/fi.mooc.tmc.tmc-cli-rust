@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>fi.mooc.tmc.tmc-cli-rust</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <name>tmc</name>
+  <summary>TestMyCode CLI</summary>
+  <description>
+    <p>Client for downloading, testing and submitting exercises through the TestMyCode system.</p>
+  </description>
+  <url type="homepage">https://github.com/rage/tmc-cli-rust</url>
+  <url type="bugtracker">https://github.com/rage/tmc-cli-rust/issues</url>
+  <releases>
+    <release date="2022-03-18" version="v1.1.1"/>
+  </releases>
+  <project_license>Apache-2.0</project_license>
+  <developer_name>The University of Helsinki</developer_name>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/fi.mooc.tmc.tmc-cli-rust/master/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <update_contact>daniel.x.martinez@helsinki.fi</update_contact>
+  <provides>
+    <binary>/app/bin/tmc</binary>
+  </provides>
+  <content_rating type="oars-1.0">
+    <content_attribute id="social-info">intense</content_attribute>
+  </content_rating>
+</component>
