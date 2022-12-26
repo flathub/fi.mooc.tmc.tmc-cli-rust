@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=TestMyCode CLI
+Exec=tmc %u
+Type=Application
+Icon=fi.mooc.tmc.tmc-cli-rust
+Categories=Development
+Terminal=true

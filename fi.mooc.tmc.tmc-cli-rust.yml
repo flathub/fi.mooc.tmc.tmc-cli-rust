@@ -11,14 +11,20 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D -t /app/bin/ tmc
-      - install -Dm644 -t /app/share/app-info/icons/flatpak/128x128/ fi.mooc.tmc.tmc-cli-rust.png
+      - install -Dm644 -t /app/share/icons/hicolor/128x128/apps/ fi.mooc.tmc.tmc-cli-rust.png
+      - install -Dm644 -t /app/share/icons/hicolor/scalable/apps/ fi.mooc.tmc.tmc-cli-rust.svg
       - install -Dm644 -t /app/share/appdata/ fi.mooc.tmc.tmc-cli-rust.appdata.xml
+      - install -Dm644 -t /app/share/applications/ fi.mooc.tmc.tmc-cli-rust.desktop
     sources:
+      - type: file
+        url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v1.1.1
+        sha256: bf140947a89d263fa36aec6c0c19c8543f6dc61720963bab80274c6ba52cef71
+        dest-filename: tmc
       - type: file
         path: fi.mooc.tmc.tmc-cli-rust.appdata.xml
       - type: file
         path: fi.mooc.tmc.tmc-cli-rust.png
       - type: file
-        url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v1.1.1
-        sha256: bf140947a89d263fa36aec6c0c19c8543f6dc61720963bab80274c6ba52cef71
-        dest-filename: tmc
+        path: fi.mooc.tmc.tmc-cli-rust.svg
+      - type: file
+        path: fi.mooc.tmc.tmc-cli-rust.desktop
