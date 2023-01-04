@@ -12,6 +12,7 @@ modules:
     build-commands:
       - install -D -t /app/bin/ tmc
       - install -D -m644 -t /app/share/metainfo/ fi.mooc.tmc.tmc-cli-rust.metainfo.xml
+      - convert -size 128x128 xc:black /app/share/icons/hicolor/128x128/apps/fi.mooc.tmc.tmc-cli-rust.png
     sources:
       - type: file
         path: fi.mooc.tmc.tmc-cli-rust.metainfo.xml
