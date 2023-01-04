@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="256"
+   width="256"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="fi.mooc.tmc.tmc-cli-rust.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="163"
+     inkscape:cy="137"
+     inkscape:window-width="1351"
+     inkscape:window-height="691"
+     inkscape:window-x="2173"
+     inkscape:window-y="754"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <path
+     id="rect2"
+     style="fill:#009ddc;stroke:#ffffff;stroke-width:8"
+     d="m 36,4 h 184 c 17.728,0 32,14.272 32,32 v 184 c 0,17.728 -14.272,32 -32,32 H 36 C 18.272,252 4,237.728 4,220 V 36 C 4,18.272 18.272,4 36,4 Z" />
+  <g
+     aria-label="TMC"
+     id="text4"
+     style="font-size:128px;font-family:monospace;dominant-baseline:central;text-anchor:middle;fill:#ffffff">
+    <path
+       d="M 45.759949,173.696 V 92.544003 h -26.88 v -10.24 h 65.28 v 10.24 h -26.88 V 173.696 Z"
+       id="path521" />
+    <path
+       d="M 96.319998,173.696 V 82.304003 H 112.832 L 128.064,135.936 h 0.384 L 143.68,82.304003 h 16.64 V 173.696 H 149.44 V 124.16 q 0,-7.552 0.256,-15.488 0.384,-8.064 1.28,-14.847997 h -0.512 L 133.568,150.912 H 122.944 L 105.92,93.696003 h -0.512 q 0.64,3.712 1.024,9.087997 0.384,5.248 0.512,10.88 0.256,5.632 0.256,10.496 v 49.536 z"
+       id="path523" />
+    <path
+       d="m 213.44005,174.976 q -13.44,0 -21.888,-6.016 -8.448,-6.016 -12.416,-16.512 -3.968,-10.624 -3.968,-24.448 0,-14.464 4.48,-24.96 4.608,-10.623997 13.184,-16.255997 8.704,-5.76 21.12,-5.76 6.656,0 12.416,1.408 5.888,1.408 10.752,3.968 l -4.352,9.344 q -3.968,-2.176 -9.088,-3.328 -4.992,-1.152 -9.728,-1.152 -13.056,0 -20.096,9.471997 -6.912,9.472 -6.912,27.264 0,17.024 6.272,26.752 6.272,9.6 20.48,9.6 4.352,0 9.344,-0.896 5.12,-1.024 10.112,-3.072 v 10.88 q -5.12,1.92 -9.856,2.816 -4.608,0.896 -9.856,0.896 z"
+       id="path525" />
+  </g>
+</svg>
