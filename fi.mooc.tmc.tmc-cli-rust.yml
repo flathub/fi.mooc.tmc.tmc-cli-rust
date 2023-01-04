@@ -11,7 +11,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D -t /app/bin/ tmc
-      - install -D -t -m644 /app/share/metainfo/ fi.mooc.tmc.tmc-cli-rust.metainfo.xml
+      - install -D -m644 -t /app/share/metainfo/ fi.mooc.tmc.tmc-cli-rust.metainfo.xml
     sources:
       - type: file
         path: fi.mooc.tmc.tmc-cli-rust.metainfo.xml
