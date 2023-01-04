@@ -14,6 +14,8 @@ modules:
       - install -D -t -m644 /app/share/metainfo/ fi.mooc.tmc.tmc-cli-rust.metainfo.xml
     sources:
       - type: file
+        path: fi.mooc.tmc.tmc-cli-rust.metainfo.xml
+      - type: file
         url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v1.1.1
         sha256: bf140947a89d263fa36aec6c0c19c8543f6dc61720963bab80274c6ba52cef71
         dest-filename: tmc
