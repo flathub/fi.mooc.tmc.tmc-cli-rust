@@ -2,7 +2,7 @@
 <component type="console-application">
   <id>fi.mooc.tmc.tmc-cli-rust</id>
   <metadata_license>CC0-1.0</metadata_license>
-  <name>tmc</name>
+  <name>TestMyCode CLI</name>
   <summary>A CLI for the TestMyCode programming assignment evaluator.</summary>
   <description>
     <p>A command line client for downloading, testing and submitting exercises through the TestMyCode system (https://tmc.mooc.fi/).</p>

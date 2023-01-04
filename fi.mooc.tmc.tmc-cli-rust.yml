@@ -10,7 +10,8 @@ modules:
   - name: tmc
     buildsystem: simple
     build-commands:
-      - install -D tmc /app/bin/tmc
+      - install -D -t /app/bin/ tmc
+      - install -D -t -m644 /app/share/metainfo/ fi.mooc.tmc.tmc-cli-rust.metainfo.xml
     sources:
       - type: file
         url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v1.1.1
