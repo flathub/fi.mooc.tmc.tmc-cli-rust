@@ -14,7 +14,7 @@
 	  <binary>tmc</binary>
   </provides>
   <releases>
-    <release date="2022-03-18" version="v1.1.1"/>
+    <release date="2024-09-09" version="v1.1.2"/>
   </releases>
   <project_license>Apache-2.0</project_license>
   <developer id="fi.mooc">
