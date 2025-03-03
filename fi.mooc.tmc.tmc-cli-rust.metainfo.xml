@@ -3,17 +3,23 @@
   <id>fi.mooc.tmc.tmc-cli-rust</id>
   <metadata_license>CC0-1.0</metadata_license>
   <name>TestMyCode CLI</name>
-  <summary>A CLI for the TestMyCode programming assignment evaluator.</summary>
+  <summary>A CLI for the TestMyCode programming assignment evaluator</summary>
   <description>
-    <p>A command line client for downloading, testing and submitting exercises through the TestMyCode system (https://tmc.mooc.fi/).</p>
+    <p>A command line client for downloading, testing and submitting exercises through the TestMyCode system.</p>
   </description>
-  <url type="homepage">https://github.com/rage/tmc-cli-rust</url>
+  <url type="homepage">https://tmc.mooc.fi</url>
+  <url type="contribute">https://github.com/rage/tmc-cli-rust</url>
   <url type="bugtracker">https://github.com/rage/tmc-cli-rust/issues</url>
+  <provides>
+	  <binary>tmc</binary>
+  </provides>
   <releases>
     <release date="2022-03-18" version="v1.1.1"/>
   </releases>
   <project_license>Apache-2.0</project_license>
-  <developer_name>The University of Helsinki</developer_name>
+  <developer id="fi.mooc">
+	<name>The University of Helsinki</name>
+  </developer>
   <content_rating type="oars-1.0">
     <content_attribute id="social-info">intense</content_attribute>
   </content_rating>
