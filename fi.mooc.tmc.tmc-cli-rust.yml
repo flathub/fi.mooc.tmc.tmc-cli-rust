@@ -1,6 +1,6 @@
 app-id: fi.mooc.tmc.tmc-cli-rust
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 command: tmc
 finish-args:
@@ -16,6 +16,6 @@ modules:
       - type: file
         path: fi.mooc.tmc.tmc-cli-rust.metainfo.xml
       - type: file
-        url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v1.1.1
-        sha256: bf140947a89d263fa36aec6c0c19c8543f6dc61720963bab80274c6ba52cef71
+        url: https://download.mooc.fi/tmc-cli-rust/tmc-cli-rust-x86_64-unknown-linux-gnu-v1.1.2
+        sha256: a2d8b571801206e51224864a92698a902c3bcdea3c435ba9826f2940372dbb05
         dest-filename: tmc
